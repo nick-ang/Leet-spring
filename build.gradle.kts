@@ -5,6 +5,7 @@ plugins {
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	kotlin("jvm") version "1.5.31"
 	kotlin("plugin.spring") version "1.5.31"
+	id("org.jlleitschuh.gradle.ktlint") version "<current_version>"
 }
 
 group = "com.example"
@@ -28,7 +29,8 @@ dependencies {
 	runtimeOnly("io.micrometer:micrometer-registry-new-relic")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.kafka:spring-kafka-test")
-	testImplementation ("io.mockk:mockk:1.9.3")
+	testImplementation ("io.mockk:mockk:{version}")
+	testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
 }
 
 tasks.withType<KotlinCompile> {
