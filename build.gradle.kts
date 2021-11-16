@@ -5,8 +5,10 @@ plugins {
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	kotlin("jvm") version "1.5.31"
 	kotlin("plugin.spring") version "1.5.31"
-	id("org.jlleitschuh.gradle.ktlint") version "<current_version>"
+	id("org.jmailen.kotlinter") version "3.7.0"
 }
+
+apply(plugin = "org.jmailen.kotlinter")
 
 group = "com.example"
 version = "0.0.1-SNAPSHOT"
@@ -29,7 +31,7 @@ dependencies {
 	runtimeOnly("io.micrometer:micrometer-registry-new-relic")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.kafka:spring-kafka-test")
-	testImplementation ("io.mockk:mockk:{version}")
+	testImplementation ("io.mockk:mockk:1.10.2")
 	testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
 }
 
@@ -43,3 +45,4 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
+
