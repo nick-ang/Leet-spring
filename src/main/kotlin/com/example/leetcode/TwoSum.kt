@@ -14,7 +14,7 @@ class TwoSum {
             val temp = mm.get(target - nums[i])
             if (temp != null && (temp ?: -1) > i) {
                 res.add(i)
-                res.add(mm.getOrElse(target-nums[i], {0}))
+                res.add(mm.getOrElse(target - nums[i], { 0 }))
             }
         }
 
