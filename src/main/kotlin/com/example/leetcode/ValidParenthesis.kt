@@ -1,26 +1,33 @@
 package com.example.leetcode
 
+import java.util.*
+
 class ValidParenthesis {
     fun isValid(s: String): Boolean {
-        val array = s.toCharArray()
-        val mid = array.size / 2
-        var j = mid
-        var result = false
-        val map = mapOf("(" to ')', '{' to '}', "[" to ']')
-        if (mid % 2 != 0) {
-            for (i in mid - 1 downTo 0) {
-                if (map[array[i]] == array[j]) {
-                    j += 1
-                    if (j == array.size) {
-                        result = true
-                    }
-                } else {
-                    result = false
+        val stack = Stack<Char>()
+
+        val map = mapOf(
+            '}' to '{',
+            ')' to '(',
+            ']' to '['
+        )
+
+        s.forEach {
+            stack.push(it)
+
+            if (map.containsKey(it)) {
+                if (stack.size < 2) {
+                    return false
                 }
+
+                if (stack[stack.size - 2] != map[it]) {
+                    return false
+                }
+
+                stack.pop()
+                stack.pop()
             }
-        } else {
-            result = false
         }
-        return result
+        return stack.isEmpty()
     }
 }
