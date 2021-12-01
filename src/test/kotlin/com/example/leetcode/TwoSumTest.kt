@@ -2,6 +2,10 @@ package com.example.leetcode
 
 import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
+import io.mockk.every
+import io.mockk.mockkObject
+import io.mockk.unmockkAll
+import io.mockk.verify
 
 class TwoSumTest {
 
