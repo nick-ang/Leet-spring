@@ -3,7 +3,7 @@ package com.example.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-//SLIDING WINDOW WITH DOUBLE POINTERS!
+//FLEXIBLE SLIDING WINDOW WITH DOUBLE POINTERS!
 
 public class LongestSubString {
     public int lengthOfLongestSubstring(String s) {
