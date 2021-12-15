@@ -28,8 +28,8 @@ class LongestSubStringTest {
 //    @ValueSource(strings = {"   ", " | ", "blah1|blah2", "blah1=value|blah2=value", "blah=value"})
     void lengthOfLongestSubstring(String[] s) {
         final int expected = Integer.parseInt(s[1]);
-       final LongestSubString longestSubString = new LongestSubString();
-       final int result = longestSubString.lengthOfLongestSubstring(s[0]);
+        final LongestSubString longestSubString = new LongestSubString();
+        final int result = longestSubString.lengthOfLongestSubstring(s[0]);
 
         assertSoftly((softly) -> {
             softly.assertThat(expected)
