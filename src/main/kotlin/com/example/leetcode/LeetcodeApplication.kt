@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class LeetcodeApplication
 
 fun main(args: Array<String>) {
-	runApplication<LeetcodeApplication>(*args)
+    runApplication<LeetcodeApplication>(*args)
 }

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.leetcode.ValidParenthesisTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-17T13:38:15" hostname="Nick-Ang" time="0.692">
-  <properties/>
-  <testcase name="Should return true if Open brackets must be closed in the correct order()" classname="com.example.leetcode.ValidParenthesisTest" time="0.692"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
