@@ -22,12 +22,6 @@ class MedianOfTwoSortedArraysTest {
         );
     }
 
-    static Stream<Arguments> ResultProvider() {
-        return Stream.of(
-                Arguments.of(2)
-        );
-    }
-
     @ParameterizedTest
     @MethodSource({"ArrayProvider"})
     void findMedianSortedArrays(final double expected, final int[][] array) {
