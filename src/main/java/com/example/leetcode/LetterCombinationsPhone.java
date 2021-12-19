@@ -19,8 +19,7 @@ public class LetterCombinationsPhone {
         if (pos == len) ans.add(sb.toString());
         else {
             char[] letters = L[Character.getNumericValue(D.charAt(pos))];
-            for (int i = 0; i < letters.length; i++)
-                bfs(pos+1, len, new StringBuilder(sb).append(letters[i]), ans, D);
+            for (char letter : letters) bfs(pos + 1, len, new StringBuilder(sb).append(letter), ans, D);
         }
     }
 }
