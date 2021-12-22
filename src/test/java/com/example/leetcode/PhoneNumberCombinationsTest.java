@@ -25,7 +25,8 @@ class PhoneNumberCombinationsTest {
     @ParameterizedTest
     @MethodSource({"ArrayProvider"})
     void letterCombinations(String digits, List<String> expected) {
-        final List<String> result = PhoneNumberCombinations.letterCombinations(digits);
+        PhoneNumberCombinations phoneNumber = new PhoneNumberCombinations();
+        final List<String> result = phoneNumber.letterCombinations(digits);
         assertSoftly ((s) -> {
             s.assertThat(result).isEqualTo(expected);
         });

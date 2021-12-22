@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.leetcode.PhoneNumberCombinationsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-12-22T13:17:50" hostname="Nicholass-MBP-3" time="0.792">
+  <properties/>
+  <testcase name="[1] digits=23, expected=[ad, ae, af, bd, be, bf, cd, ce, cf]" classname="com.example.leetcode.PhoneNumberCombinationsTest" time="0.786"/>
+  <testcase name="[2] digits=, expected=[]" classname="com.example.leetcode.PhoneNumberCombinationsTest" time="0.001"/>
+  <testcase name="[3] digits=2, expected=[a, b, c]" classname="com.example.leetcode.PhoneNumberCombinationsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
