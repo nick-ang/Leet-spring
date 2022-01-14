@@ -5,7 +5,7 @@ import java.util.Map;
 
 //FLEXIBLE SLIDING WINDOW WITH DOUBLE POINTERS!
 
-public class LongestSubString {
+public class ReviseLongestSubString {
     public int lengthOfLongestSubstring(String s) {
         Map<Character, Integer> visited = new HashMap<>();
         String output = "";

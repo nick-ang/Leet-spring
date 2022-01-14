@@ -10,7 +10,7 @@ with one pointer and also reach the n'th node from the end simultaneously
 with a second pointer.*/
 
 public class RemoveNthNodeFromEndofList {
-    public static ListNode removeNthFromEnd(ListNode head, int n) {
+    public ListNode removeNthFromEnd(ListNode head, int n) {
         // Set a fast and slow pointer at the head (start of list)
         ListNode fast = head;
         ListNode slow = head;
@@ -18,8 +18,9 @@ public class RemoveNthNodeFromEndofList {
         for (int i = 0; i < n; i++) {
             fast = fast.next;
         }
+        // for (int i = 0; i < n; i++) fast = fast.next - also works
         // if the nth node is the last that means the list is only 1 long
-        if (fast == null) return head.next;
+        if (fast == null) return head != null ? head.next : null;
         // use fast.next == null as exit condition and loop to end of list
         while (fast.next != null) {
             fast = fast.next;
