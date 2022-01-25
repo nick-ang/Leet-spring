@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.leetcode.GenerateParanthesisTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-14T14:47:40" hostname="Nicholass-MBP-3" time="0.64">
-  <properties/>
-  <testcase name="[1] max=3, expected=[((())), (()()), (())(), ()(()), ()()()]" classname="com.example.leetcode.GenerateParanthesisTest" time="0.637"/>
-  <testcase name="[2] max=1, expected=[()]" classname="com.example.leetcode.GenerateParanthesisTest" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

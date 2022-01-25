@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.leetcode.MergeTwoSortedListsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-25T14:31:41" hostname="Nicholass-MBP-3" time="0.808">
+  <properties/>
+  <testcase name="mergeTwoLists()" classname="com.example.leetcode.MergeTwoSortedListsTest" time="0.808"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
