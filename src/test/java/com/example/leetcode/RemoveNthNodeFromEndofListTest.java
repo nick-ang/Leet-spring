@@ -2,13 +2,11 @@ package com.example.leetcode;
 
 import org.assertj.core.api.SoftAssertions;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 class RemoveNthNodeFromEndofListTest {
 
@@ -46,5 +44,14 @@ class RemoveNthNodeFromEndofListTest {
         SoftAssertions.assertSoftly((s)->{
             s.assertThat(result).isEqualTo(expected);
         });
+    }
+
+    public static class infTest {
+
+        @Test
+       void contextLoads() {
+            Inif instance = new Inif();
+            Void result = instance.infiniteLoopUsingFor();
+        }
     }
 }
