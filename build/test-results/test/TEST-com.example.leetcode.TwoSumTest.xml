@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.leetcode.TwoSumTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-29T11:04:16" hostname="Nicholass-MBP-3" time="0.002">
-  <properties/>
-  <testcase name="two sum output is correct()" classname="com.example.leetcode.TwoSumTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

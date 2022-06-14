@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.example.leetcode.AddTwoLinkedListsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-01-29T11:04:12" hostname="Nicholass-MBP-3" time="0.816">
-  <properties/>
-  <testcase name="addTwoNumbers()" classname="com.example.leetcode.AddTwoLinkedListsTest" time="0.816"/>
-  <system-out><![CDATA[22:04:12.294 [Test worker] INFO com.example.leetcode.AddTwoLinkedLists - Result - [7, 0, 8] | Expected - [7, 0, 8]
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

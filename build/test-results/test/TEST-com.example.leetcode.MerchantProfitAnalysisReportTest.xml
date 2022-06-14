@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.leetcode.MerchantProfitAnalysisReportTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-14T14:08:51" hostname="Nicholass-MBP-3" time="0.018">
+  <properties/>
+  <testcase name="should return int of largest profit with double month with largest profit loss sum()" classname="com.example.leetcode.MerchantProfitAnalysisReportTest" time="0.018"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
